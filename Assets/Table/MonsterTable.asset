@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0964547e431856f4eb54a56945d3c3a3, type: 3}
+  m_Name: MonsterTable
+  m_EditorClassIdentifier: 
+  Monster:
+  - monsterName: stage_1
+    monsterHP: 5
+    monsterScore: 10
+  - monsterName: stage_2
+    monsterHP: 10
+    monsterScore: 10
+  - monsterName: stage_3
+    monsterHP: 15
+    monsterScore: 15
+  - monsterName: stage_4
+    monsterHP: 20
+    monsterScore: 20
+  - monsterName: stage_5
+    monsterHP: 25
+    monsterScore: 25
+  - monsterName: stage_6
+    monsterHP: 30
+    monsterScore: 30
+  - monsterName: stage_7
+    monsterHP: 35
+    monsterScore: 35
+  - monsterName: stage_8
+    monsterHP: 40
+    monsterScore: 40
+  - monsterName: stage_9
+    monsterHP: 45
+    monsterScore: 45
+  Boss:
+  - bossName: "\uD0A4\uC544\uB4DC\uB9AC\uC544\uC2A4"
+    bossHP: 100
+  - bossName: "\uC544\uB974\uD2F0\uC5B4\uC2A4"
+    bossHP: 200
+  - bossName: "\uCE74\uB4DC\uB9AC\uC548"
+    bossHP: 400
+  - bossName: "\uBD84\uB178\uC758 \uD0A4\uC544\uB4DC\uB9AC\uC544\uC2A4"
+    bossHP: 500
+  - bossName: "\uBD84\uB178\uC758 \uC544\uB974\uD2F0\uC5B4\uC2A4"
+    bossHP: 600
+  - bossName: "\uBD84\uB178\uC758 \uCE74\uB4DC\uB9AC\uC548"
+    bossHP: 800
+  - bossName: "\uAC01\uC131\uC758 \uD0A4\uC544\uB4DC\uB9AC\uC544\uC2A4"
+    bossHP: 900
+  - bossName: "\uAC01\uC131\uC758 \uC544\uB974\uD2F0\uC5B4\uC2A4"
+    bossHP: 1000
+  - bossName: "\uAC01\uC131\uC758 \uCE74\uB4DC\uB9AC\uC548"
+    bossHP: 1200
